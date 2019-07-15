@@ -38,6 +38,7 @@ def main():
     logging.info("The given Path: " + given_path)
     logging.info("is the given path a directory? " + str(os.path.isdir(given_path)))
     rename_files(given_path)
+logging.disable(logging.CRITICAL)
 
 if __name__ == "__main__":
     main()
